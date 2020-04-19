@@ -1,17 +1,23 @@
 <nav class="nav-extended">
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">motorsounds</a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="/signup">Signup</a></li>
-        <li><a href="/login">Login</a></li>
+  <div class="nav-wrapper container">
+      <a id="logo-container" href="/" class="brand-logo">Motorsounds</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/about">about</a></li>
+        <li><a href="/services">services</a></li>
+        <li><a href="/gallery">gallery</a></li>
+        <li><a href="/franchise">franchise</a></li>
+        <li><a href="/login">login</a></li>
+        <li><a href="/signup">signup</a></li>
       </ul>
-    </div>
-    <div class="nav-content">
-      <ul class="tabs tabs-transparent">
-        <li class="tab"><a href="/">home</a></li>
-        <li class="tab"><a href="/about">about us</a></li>
-        <li class="tab"><a href="/services">services</a></li>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="/about">about</a></li>
+        <li><a href="/services">services</a></li>
+        <li><a href="/gallery">gallery</a></li>
+        <li><a href="/franchise">franchise</a></li>
+        <li><a href="/login">login</a></li>
+        <li><a href="/signup">signup</a></li>
       </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
-  </nav>
+</nav>

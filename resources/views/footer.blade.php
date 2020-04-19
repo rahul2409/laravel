@@ -4,23 +4,28 @@
     <div class="row">
         <div class="col l6 s12">
         <h5 class="white-text">Footer Content</h5>
-        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        <p class="grey-text text-lighten-4">shops available for purchase</p>
         </div>
         <div class="col l4 offset-l2 s12">
         <h5 class="white-text">Links</h5>
-        <ul>
-            <li><a href="https://www.facebook.com/motorsounds/"><span><i class="fab fa-facebook"></i></span></a></li>
-            <li><a href="https://www.instagram.com/motorsounds.caraudio/"><img class="circle responsive-image" src="./../../images/social/cool/instagram.png" alt="instagram"></a></li>
-            <li><img src="./../../images/social/cool/whatsapp.png" alt="whatsapp"></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+        <ul id="footer">
+            <li><a href="https://www.facebook.com/motorsounds/">
+                <i class="fab fa-facebook fa-4x"></i>
+            </a></li>
+            <li><a href="https://www.instagram.com/motorsounds.caraudio/">
+                <i class="fab fa-instagram fa-4x"></i>
+            </a></li>
+            <li><a href="https://wa.me/919819641444">
+                <i class="fab fa-whatsapp fa-4x"></i>
+            </a></li>
         </ul>
         </div>
     </div>
     </div>
     <div class="footer-copyright">
     <div class="container">
-    © 2014 Copyright Text
-    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    © motorsounds.co.in
+    <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
     </div>
     </div>
 </footer>

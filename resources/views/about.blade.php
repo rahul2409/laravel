@@ -1,4 +1,4 @@
-@extends('app')
+@extends('index')
 
 @section('title','About Us')
 @section('style')
@@ -13,7 +13,7 @@
 
 @endsection
 
-@section('div-section')
+@section('body')
 <h1>Hello and Welcome to home page
 </h1>
 <small>develop the about us page.</small>
